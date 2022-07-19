@@ -1,0 +1,25 @@
+token github
+
+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
+
+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
+
+repositorio
+
+Prep-Course-FT
+
+git push https://<token>@github.com/<nombre de usuario>/<nombre del repositorio>.git
+
+
+
+git push https://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@github.com/marbello1973/Prep-Course-FT.git
+
+
+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
+
+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
+
+
+
+
+
