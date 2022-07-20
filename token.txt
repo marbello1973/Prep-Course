@@ -4,6 +4,8 @@ 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
 
 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
 
+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
+
 repositorio
 
 Prep-Course-FT
@@ -12,10 +14,10 @@ git push https://<token>@github.com/<nombre de usuario>/<nombre del repositorio>
 
 
 
-git push https://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@github.com/marbello1973/Prep-Course-FT.git
+git push https://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@github.com/marbello1973/Prep-Course.git
 
 
-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
+
 
 
 
