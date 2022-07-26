@@ -1,0 +1,84 @@
+{
+    "cells": [
+        {
+            "language": "typescript",
+            "source": [
+                "function incrementarPorUno(array) {\n    // \"array\" debe ser una matriz de enteros (int/integers)\n    // Aumenta cada entero por 1\n    // y devuelve el array\n    // Tu código:\n    \n    let nvoArray = [];\n    for(let i = 0; i < array.length; i ++){\n      nvoArray[i] = array[i] + 1;\n    } \n    return nvoArray\n  }\n  incrementarPorUno([1,2,3])"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "[",
+                                "  \u001b[33m2\u001b[39m,",
+                                "  \u001b[33m3\u001b[39m,",
+                                "  \u001b[33m4\u001b[39m",
+                                "]"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "function breakStatement(numero) {\n    //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.\n    //Guardar cada nuevo valor en un array.\n    //Devolver el array\n    //Si en algún momento el valor de la suma y la cantidad de iteraciones coinciden, debe interrumpirse la ejecución y\n    //devolver: \"Se interrumpió la ejecución\"\n    //Pista: usá el statement 'break'\n    // Tu código:\n    let nvoArray = [];\n    let suma = numero;\n    for(let i = 0; i < 10; i ++){\n      nvoArray[i] = numero[i] + 2;\n    } \n    return nvoArray\n\n  }\n  breakStatement([1,2,3])"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "[",
+                                "  \u001b[33m3\u001b[39m,",
+                                "  \u001b[33m4\u001b[39m,",
+                                "  \u001b[33m5\u001b[39m,",
+                                "  \u001b[33mNaN\u001b[39m,",
+                                "  \u001b[33mNaN\u001b[39m,",
+                                "  \u001b[33mNaN\u001b[39m,",
+                                "  \u001b[33mNaN\u001b[39m,",
+                                "  \u001b[33mNaN\u001b[39m,",
+                                "  \u001b[33mNaN\u001b[39m,",
+                                "  \u001b[33mNaN\u001b[39m",
+                                "]"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "function breakStatement(numero) {\n    //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.\n    //Guardar cada nuevo valor en un array. \n    //Devolver el array\n    //Si en algún momento el valor de la suma y la cantidad de iteraciones coinciden, debe interrumpirse la ejecución y \n    //devolver: \"Se interrumpió la ejecución\"\n    //Pista: usá el statement 'break'\n    // Tu código:\n    var array = [];\n    var suma = numero;\n    for(var i= 0; i<10; i++) {\n      suma = suma + 2;\n      if(suma === i) break;\n      else {\n        array.push(suma);\n      }\n    }\n    if(i < 10) {\n      return 'Se interrumpió la ejecución';\n    }\n    else {\n        return array;\n    }\n  }\n  breakStatement(1,2,3)"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "[",
+                                "  \u001b[33m3\u001b[39m,",
+                                "  \u001b[33m5\u001b[39m,",
+                                "  \u001b[33m7\u001b[39m,",
+                                "  \u001b[33m9\u001b[39m,",
+                                "  \u001b[33m11\u001b[39m,",
+                                "  \u001b[33m13\u001b[39m,",
+                                "  \u001b[33m15\u001b[39m,",
+                                "  \u001b[33m17\u001b[39m,",
+                                "  \u001b[33m19\u001b[39m,",
+                                "  \u001b[33m21\u001b[39m",
+                                "]"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
